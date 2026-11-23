@@ -23,7 +23,7 @@ export default function Contact() {
 
         <div className="pitwall reveal">
           <aside className="pitwall__panel">
-            <img className="pitwall__car" src="/assets/f1-car-final.webp" alt="" aria-hidden="true" loading="lazy" />
+            <img className="pitwall__car" src={`${import.meta.env.BASE_URL}assets/f1-car-final.webp`} alt="" aria-hidden="true" loading="lazy" />
             <div className="pitwall__checker" aria-hidden="true" />
             <div className="pitwall__panel-inner">
               <span className="pitwall__label">PIT WALL · GT</span>

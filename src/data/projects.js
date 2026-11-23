@@ -1,3 +1,5 @@
+const asset = file => `${import.meta.env.BASE_URL}assets/${file}`;
+
 export const projects = [
   {
     num: '01',
@@ -6,7 +8,7 @@ export const projects = [
     description: 'Sistema de gestión para gimnasios, enfocado en la administración de clientes, planes y operaciones.',
     tech: ['Node.js', 'JavaScript', 'SQL'],
     repo: 'https://github.com/Pablolm2008/gym_manager---pablolm',
-    image: '/assets/f1-rojo.webp',
+    image: asset('f1-rojo.webp'),
   },
   {
     num: '02',
@@ -15,7 +17,7 @@ export const projects = [
     description: 'Aplicación web para el registro y control de vehículos y espacios de estacionamiento en un entorno académico.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     repo: 'https://github.com/Pablolm2008/Campus-Parking---Pablo-Lopez',
-    image: '/assets/f1-meta.webp',
+    image: asset('f1-meta.webp'),
   },
   {
     num: '03',
@@ -24,7 +26,7 @@ export const projects = [
     description: 'Sistema de gestión para el control de productos, clientes, ventas e inventario mediante bases de datos relacionales.',
     tech: ['MySQL', 'SQL'],
     repo: 'https://github.com/Pablolm2008/distribuidora_gaseosas_valle_s.a-pablo_lopez',
-    image: '/assets/f1-curva.webp',
+    image: asset('f1-curva.webp'),
   },
   {
     num: '04',
@@ -33,7 +35,7 @@ export const projects = [
     description: 'Aplicación de línea de comandos para administrar registros de campers mediante operaciones CRUD y almacenamiento JSON.',
     tech: ['Node.js', 'JavaScript', 'JSON'],
     repo: 'https://github.com/Pablolm2008/campuslands-cli-node',
-    image: '/assets/f1-noche.webp',
+    image: asset('f1-noche.webp'),
   },
   {
     num: '05',
@@ -42,6 +44,6 @@ export const projects = [
     description: 'Sistema de gestión de inventario para una tienda de tecnología, con administración de productos, proveedores, clientes y ventas.',
     tech: ['PostgreSQL', 'SQL', 'PL/pgSQL'],
     repo: 'https://github.com/Pablolm2008/gesti-n_de_inventario_para_una_tienda_de_tecnolog-a',
-    image: '/assets/f1-3d.webp',
+    image: asset('f1-3d.webp'),
   },
 ];

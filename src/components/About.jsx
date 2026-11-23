@@ -15,7 +15,7 @@ export default function About() {
 
         <div className="about__grid">
           <div className="about__photo reveal">
-            <img src="/assets/yo.webp" alt={`Retrato de ${profile.name}`} width="869" height="854" loading="lazy" />
+            <img src={`${import.meta.env.BASE_URL}assets/yo.webp`} alt={`Retrato de ${profile.name}`} width="869" height="854" loading="lazy" />
             <div className="about__photo-meta">
               <span>PILOTO</span>
               <strong>PABLO LÓPEZ MONZÓN</strong>

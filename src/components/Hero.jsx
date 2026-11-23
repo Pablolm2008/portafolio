@@ -6,7 +6,7 @@ export default function Hero({ onEnter }) {
         <div className="wheel-wrap reveal">
           <img
             className="wheel"
-            src="/assets/timon-f1.webp"
+            src={`${import.meta.env.BASE_URL}assets/timon-f1.webp`}
             alt="Volante de Fórmula 1 con controles y telemetría"
             width="913"
             height="627"
